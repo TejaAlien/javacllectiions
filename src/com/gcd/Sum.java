@@ -1,7 +1,7 @@
 package com.gcd;
 
 import java.util.Scanner;
-
+//sum
 public class Sum {
     public static void main(String[] args) {
         Scanner st = new Scanner(System.in);
