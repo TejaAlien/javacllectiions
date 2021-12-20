@@ -8,6 +8,7 @@ public class GCD {
             Scanner st = new Scanner(System.in);
             for (int i = 0; i < 3; i++) {
 
+
                 int dividend1 = st.nextInt();
                 int divisor1 = st.nextInt();
                 int dividend2 = st.nextInt();
