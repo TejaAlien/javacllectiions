@@ -21,6 +21,7 @@ public class Sum {
             sum.Aggregate(combinedremainder, combinednum);
             System.out.println("##########");
         }
+        newuinirg
 
     }
     public int gcd(int divisor1, int divisor2) {
