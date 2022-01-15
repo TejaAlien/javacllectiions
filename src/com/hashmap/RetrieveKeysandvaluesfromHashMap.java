@@ -48,3 +48,10 @@ while (itr.hasNext()){
 
 
 }
+/*
+KeyNotes :
+if you want to use Iterator
+first convert map to set
+second use Iterator () to iterate the elements
+third get the key and value from the itr.next
+last sysout */

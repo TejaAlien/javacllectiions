@@ -22,6 +22,7 @@ else{
 }*/
         b[4] = "Hello I am good";
         Optional<String > check = Optional.ofNullable(b[4]);//here check has helloI am good so satisfies the below if condition
+        //check has the optional<Hello I am good>
         if(check.isPresent()){
            String toupper = b[4].toUpperCase();
            System.out.println(toupper);
@@ -29,5 +30,8 @@ else{
         else{
             System.out.println("No value is present");
         }
-    }
-    }
+    }//Keynotes:
+    }// we are using optional for doing null checks prevents from null pointer exceptions
+//Optional<String> check = Optional.ofNullable(b[4]) like this we mention to check that position is null or not
+// if value present check has string value
+//using ispresent->to check vlaue true or false

@@ -19,5 +19,9 @@ public class CollectionInterface {
        // System.out.println(fruitobjs);
        // fruitobjs.stream().forEach(con->System.out.println(con));
         fruitobjs.stream().distinct().forEach(co->System.out.println(co));
+        fruitobjs.forEach(o->System.out.println(o));
     }
 }
+/*
+KeyNotes:
+here Collection is a root level interface so List(all classes) , queue (all classes)and set(all classes) extends this Collection */

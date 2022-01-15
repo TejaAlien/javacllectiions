@@ -62,3 +62,5 @@ for(String k:sublist){
 //keynotes : .get to retrieve and .remove to remove the elements
 //.sublist to split the array from the starting index into end-1 index of the list which returns the listobj
 //List<String> sublist = s.sublist(startindex, endindex)
+//sublist is used to split the array
+//list<String> sublist = s.sublist(start,end)

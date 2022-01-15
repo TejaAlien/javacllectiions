@@ -29,11 +29,14 @@ final class Studentimmutable {
 
    }
 
-   @Override
-   public String toString() {
-      return "Studentimmutable{" +
-              "name='" + name + '\'' +
-              ", id=" + id +
-              '}';
-   }
+    @Override
+    public String toString() {
+        return "Studentimmutable{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", age=" + age +
+                '}';
+    }
 }
+//KeyNotes: TO make a immutable class make the class final and fields final and private
+//use getters don't use setter methods

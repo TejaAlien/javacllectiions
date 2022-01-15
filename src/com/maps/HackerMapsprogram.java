@@ -21,12 +21,16 @@ public class HackerMapsprogram {
 
         for(int i=0; i<listkeys.size();i++){
             String entername = st.next();
-            if(listkeys.get(i).equals(entername)){
-                System.out.println(listkeys.get(i)+" "+map.get(entername));
+            for(int j =i;j<listkeys.size();j++){
+            if(listkeys.get(j).equals(entername)){
+                System.out.println("found at index: " + j+" " +listkeys.get(j)+" "+map.get(entername));
             }
             else{
-                System.out.println("Not Found");
+                System.out.println("Not found at index:"+j);
             }
+            }
+            System.out
+                    .println(" ");
         }
         }
 
