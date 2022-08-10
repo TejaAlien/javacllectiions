@@ -1,6 +1,7 @@
 package com.collection.List;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class RemoveelemetsfromtheArraylist {
@@ -22,6 +23,8 @@ public class RemoveelemetsfromtheArraylist {
         removeobjs.removeAll(s);
         System.out.println(removeobjs);*/
         // whatever elemtents syou want to remove put it in a separrate list and remove that collection
+        List<String> ss = Arrays.asList("ffre","ferfer","regeg");
+        System.out.println(ss);
         List<String> substringremoveobjs = new ArrayList<>();
         substringremoveobjs.add("modi");
         substringremoveobjs.add("vajpayee");
